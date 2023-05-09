@@ -26,7 +26,7 @@
 (newline)
 (display (sqrt 2))
 (newline)
-(display (sqrt 10 0))
+(display (sqrt 10))
 (newline)
 (display (sqrt (+ (sqrt 2) (sqrt 2))))
 (newline)
