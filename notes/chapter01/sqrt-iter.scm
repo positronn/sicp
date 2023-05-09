@@ -30,3 +30,14 @@
 (newline)
 (display (sqrt (+ (sqrt 2) (sqrt 2))))
 (newline)
+
+;;
+;; 
+;; The sqrt program also illustrates that the simple procedural
+;; language we have introduced so far is sufficient for writing
+;; any purely numeri- cal program that one could write in, say, C or Pascal. 
+;; This might seem surprising, since we have not included in our
+;; language any iterative (looping) constructs that direct the computer
+;; to do something over and over again. sqrt-iter, on the other hand,
+;; demonstrates how iteration can be accomplished using no special construct
+;; other than the ordinary ability to call a procedure.
