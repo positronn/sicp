@@ -19,6 +19,16 @@
 ;; evaluated first, and the result determines whether to evaluate the
 ;; consequent or the alternative expression.)
 
+
+;; Applicative order evaluation (evaluate arguments, then apply):
+;;    The interpreter first evaluates the operator and operands and then applies
+;;    the resulting procedure to the resulting arguments.
+
+;; Normal-order evaluation (fully expand, then reduce):
+;;    substitute operand expressions for parameters until it obtained an expression
+;;    involving only primitive operators, and would then perform the evaluation.
+
+
 ;; applicative-order-evaluation => "evaluate arguments, then apply"
 ;; (test x y)
 ;; -> (test 0 (p))
