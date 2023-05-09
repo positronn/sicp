@@ -1,0 +1,21 @@
+
+(define (factorial n)
+  (fact-iter 1 1 n))
+(define (fact-iter product counter max-count)
+  (if (> counter max-count)
+      product
+      (fact-iter (* counter product)
+                 (+ counter 1)
+                 max-count)))
+
+(newline)
+(display (factorial 1))
+(newline)
+(display (factorial 2))
+(newline)
+(display (factorial 3))
+(newline)
+(display (factorial 4))
+(newline)
+(display (factorial 5))
+(newline)
